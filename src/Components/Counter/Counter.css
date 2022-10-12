@@ -1,0 +1,23 @@
+.counter-button{
+    
+    height: 360px;
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+    
+}
+#root{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 167, 167);
+}
+h1{
+    margin: 0;
+    font-size: 72px;
+}
+
