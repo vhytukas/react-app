@@ -30,7 +30,8 @@ const Counter = () => {
         <div className="counter-button"> Count: {countContext.countState.count} </div>
         <Buttons />
       </div>
-      <button onClick={starwarsHandler}>Starwars</button> 
+      <button onClick={starwarsHandler} className="starwars-btn">Starwars</button> 
+      
     </>
   );
 };

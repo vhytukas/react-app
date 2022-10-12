@@ -40,6 +40,9 @@ const reducer = (state, action) => {
       case "nextstarwars":
         newState.starwarsid = state.starwarsid + 1;
         return newState;
+        case "prevstarwars":
+        newState.starwarsid = state.starwarsid - 1;
+        return newState;
 
     default:
       return;

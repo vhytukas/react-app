@@ -1,10 +1,13 @@
 button{
-    background-color:aqua;
+    background-color: #191654;
+    color: white;
     border: none;
-    height: 36px;
+    height: 42px;
+    width: 64px;
     border-radius: 10%;
     cursor: pointer;
     margin-left: 64px;
     font-weight: bold;
     min-width: 36px;
+    font-size: 20px;
 }
