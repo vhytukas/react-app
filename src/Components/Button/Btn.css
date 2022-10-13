@@ -11,3 +11,7 @@ button{
     min-width: 36px;
     font-size: 20px;
 }
+.grey-button{
+    background-color: grey;
+    cursor: auto;
+}
